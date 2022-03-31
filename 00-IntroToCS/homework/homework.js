@@ -20,7 +20,7 @@ for(let i =0; i< num.length; i++){
 }
 return sum;
 
-
+//as dddddddddddddddddddddda,,,,,,,,,,,,,,,,,,,,,,,,msdddddddddddddddddddddddaskdamsldkmasdlkmaldskm
 /*var resultado = 0;
 
 function iglesias (num){
