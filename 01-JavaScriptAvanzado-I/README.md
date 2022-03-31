@@ -27,7 +27,7 @@ Empecemos con algunos fundamentos:
 
 ## Single Threaded y Sincrónico
 
-En ciencias de la computación un thread (o hilo de ejecución) es la secuencia de instrucciones más pequeña que puede ser manejada por un _planificar de recursos_ (él que se encarga de repartir el tiempo disponible de los recursos del sistema entre todos los procesos) del Sistema Operativo.
+En ciencias de la computación un thread (o hilo de ejecución) es la secuencia de instrucciones más pequeña que puede ser manejada por un _planificar de recursos_ (él que se encarga de repartir el tiempo disponible de los recursos del sistema entre todos los procesos) del Sistema Operativo. Hilos = codigo
 
 ![Threaded](../_src/assets/01-JavaScriptAvanzado-I/mthread.gif)
 
