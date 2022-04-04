@@ -3,11 +3,11 @@ var a = 5;
 var b = 10;
 var c = function(a, b, c) {
   var x = 10;
-  console.log(x);   //10
+  console.log(x);   // 10
   console.log(a);   //8
   var f = function(a, b, c) {
     b = a;
-    console.log(b);  //8
+    console.log(b);  // 8
     b = c;
     var x = 5;
   }
@@ -21,12 +21,16 @@ console.log(x); //1
 
 //Ejercicio 2
 
-console.log(bar);
-console.log(baz);
-foo();
-function foo() { console.log('Hola!'); }
-var bar = 1;
-baz = 2;
+console.log(bar);    //undefined
+console.log(baz);    //error
+
+foo();                      //Hola      
+
+function foo() { console.log('Hola!'); }        
+
+var bar = 1;                     
+
+baz = 2;                      
 
 
 //EJERCICIO 3
