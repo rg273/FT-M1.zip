@@ -1,4 +1,7 @@
 'use strict'
+
+const { concurrency } = require("@11ty/eleventy-cache-assets");
+
 // Implementa la clase LinkedList
 // tiene metodos `add`, `remove`, y `search`
 // add: Agrega un nuevo nodo en el final de la lista
@@ -11,12 +14,32 @@
 // search: Busca un valor dentro de la lista. Puede recibir un valor o una función. Si no hubiera resultados, devuelve null.
 
 function LinkedList() {
-
+  this.head=null
 }
 
 function Node(value){
-
+  this.data = value;
+  this.next = null;
 }
+
+let list = new LinkedList();
+
+LinkedList.prototype.add= function(data){
+
+  let node = new Node(data);
+  let current = this.head;
+
+if(!current.next){
+  this.head = node;
+}
+  while(current.next){
+    current.next = "algo"
+  }
+
+  current.next = Node
+}
+
+
 
 // Hash Table( ver información en: https://es.wikipedia.org/wiki/Tabla_hash)
 // Una Hash table contiene un arreglo de "contenedores" o buckets donde puede guardar información.
@@ -33,6 +56,10 @@ function Node(value){
 function HashTable() {
 
 }
+
+function Node()
+
+
 
 
 // No modifiquen nada debajo de esta linea

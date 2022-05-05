@@ -16,7 +16,11 @@ const {
 
 var countArray = function(array) {
     // Tu código aca:
+ if(Array.isArray(array)){
+     let ArraySinAnidados = array.flat(Infinity);
     
+     return ArraySinAnidados;
+ }
 }
 
 
@@ -41,6 +45,7 @@ var countProps = function(obj) {
     // Tu código aca:
 
 }
+
 
 
 // Implementar el método changeNotNumbers dentro del prototype de LinkedList que deberá cambiar
